@@ -18,8 +18,10 @@ while True:
         yearpluscurr100 = int(yearcurr)+factor #assuming current year is 2020
         print("in", factor, "years you will be", ageplus100, "and the year will be", yearpluscurr100,"\n")
 
-    stop = (input("Do you wanna go again enter y to continue, and n to stop "))
+    stop = (input("Do you wanna go again enter y to continue, and n to stop: "))
     if stop == "y":
         continue
     elif stop == "n":
+        print('Stopping\n')
         break
+    
